@@ -7,7 +7,7 @@
 </h1>
 
 <h2 align="center">
-    <a href="">See the Project</a>
+    <a href="https://matheusnlourenco.github.io/project-imc-calculator/">See the Project</a>
 </h2>
 ## 🚨 about
 
