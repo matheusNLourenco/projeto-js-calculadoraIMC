@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>IMCalc - Know your imc</title>
+  </head>
+  <body>
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <td colspan="3">Veja a interpretação do IMC</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Imc</td>
+            <td>Classificação</td>
+            <td>Obesidade grau</td>
+          </tr>
+          <tr>
+            <td>Menor que 18.5</td>
+            <td>Magreza</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Entre 18.5 e 24.9</td>
+            <td>Normal</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Entre 25.0 e 29.9</td>
+            <td>Sobrepeso</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Entre 30.0 e 39.9</td>
+            <td>Obesidade</td>
+            <td>2</td>
+          </tr>
+          <tr>
+            <td>Maior que 40.0</td>
+            <td>Obesidade grave</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="inputs">
+        <div class="inputs__inner">
+          <span>Altura <small>(ex: 1.70)</small></span>
+          <input type="text" placeholder="Metros" class="input__height" />
+        </div>
+        <div class="inputs__inner">
+          <span>Peso <small>(ex: 69.2)</small></span>
+          <input type="text" placeholder="Quilos" class="input__weight" />
+        </div>
+      </div>
+
+      <div class="btn-wrapper">
+        <button
+          type="button"
+          class="btn-wrapper__btn btn-wrapper__btn--calc"
+          id="js-calc"
+        >
+          Calcular
+        </button>
+        <button type="button" class="btn-wrapper__btn" id="js-clear">
+          Limpar
+        </button>
+      </div>
+
+      <div class="result"></div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
