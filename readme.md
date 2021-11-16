@@ -9,11 +9,11 @@
 <h2 align="center">
     <a href="https://matheusnlourenco.github.io/project-imc-calculator/">See the Project</a>
 </h2>
-## 🚨 about
+<h2>🚨 about</h2>
 
 Project of an **IMC CALCULATOR**
 
-## 🔨 Tools
+<h2>🔨 Tools</h2>
 
 - HTML
 - CSS
