@@ -1,5 +1,5 @@
 <h1 align=" center"> 
-    Calculo IMC 📱
+    Calculadora IMC 📱
 </h1>
 
 <h1>
@@ -7,13 +7,12 @@
 </h1>
 
 <h2 align="center">
-    <a href="https://matheusnlourenco.github.io/project-imc-calculator/">See the Project</a>
+    <a href="https://matheusnlourenco.github.io/projeto-js-calculadoraIMC/">Ver projeto</a>
 </h2>
-<h2>🚨 about</h2>
+<h2>🚨 Sobre </h2>
+Projeto Calculadora de IMC. Feito com js vanilla.
 
-Project of an **IMC CALCULATOR**
-
-<h2>🔨 Tools</h2>
+<h2>🔨 Ferramentas </h2>
 
 - HTML
 - CSS
